@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./12.js" defer></script> -->
+    <!-- <script src="../14.js" defer></script> -->
+    <!-- <script src="../15.js" defer></script> -->
+    <script src="./18.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="">Todo</a></li>
+                <li class="nav-item"><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">Manage your tasks</h2>
+            <button class="btn btn-headline">Learn More</button>
+        </div>
+    </header>
+    <section class="todo-section container">
+        <h2>Your plan for today ?</h2>
+        <form class="form-todo">
+            <input type="text" placeholder="Add Todo">
+            <input type="submit" value="Add Todo" class="btn">
+        </form>
+        <ul class="todo-list">
+            <li>
+                <span class="text">Do this do that</span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-singup container">
+        <h2>Sing Up</h2>
+        <form class="singup-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password">
+    </div>
+    <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="text" name="confirmPassword" id="confirmPassword">
+    </div>
+    <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone">
+    </div>
+    <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div class="form-group">
+        <label for="username">Username</label>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+    </div>
+    <button type="submit" class="btn singup-btn">Submit</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../second practice"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "second practice"
+	}
+}
